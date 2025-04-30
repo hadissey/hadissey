@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Weather App | اپ هواشناسی</title>
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn&display=swap" rel="stylesheet" />
+  <link rel="stylesheet"  href="style.css" />
+</head>
+<body>
+  <div class="app-container">
+    <h1>اپ هواشناسی</h1>
+    <div class="search-box">
+      <input type="text" id="locationInput" placeholder="نام شهر را وارد کنید..." autofocus />
+      <button id="searchButton">🔍</button>
+    </div>
+      <div class="weather-info">
+        <h2 id="location"></h2>
+        <p id="temperature"></p>
+        <div class="temp-desc"></div>
+        <p id="description"></p>
+        <img id="weatherIcon"  src="https://openweathermap.org/img/wn/11d@2x.png" />
+        </div>
+      </div>
+  <script src="scrept.js"></script>
+</body>
+</html>
